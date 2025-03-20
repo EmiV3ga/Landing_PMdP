@@ -1,38 +1,82 @@
-# Welcome to PMdP Landing Page
+# Proyecto PMDP
 
-## Project info
+Este es el repositorio del proyecto **PMDP**, desarrollado con **Vite, TypeScript, React, shadcn-ui y Tailwind CSS**, y desplegado en **Netlify**.
 
-**URL**: https://pmdp.netlify.app/
+## 🌐 Demo
 
+Puedes ver el proyecto en línea aquí: [pmdp.netlify.app](https://pmdp.netlify.app)
 
+## 🚀 Tecnologías Utilizadas
 
+- **Vite** - Herramienta de construcción rápida para proyectos modernos.
+- **TypeScript** - Superset de JavaScript para código más seguro y estructurado.
+- **React** - Biblioteca para construir interfaces de usuario interactivas.
+- **shadcn-ui** - Componentes UI modernos y accesibles.
+- **Tailwind CSS** - Framework de CSS para estilos rápidos y eficientes.
+- **Netlify** - Plataforma de despliegue para hosting del sitio.
+- **Bun** - Administrador de paquetes y entorno de ejecución rápido.
 
-**Edit a file directly in GitHub**
+## 📌 Características
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- 🌙 Soporte para tema oscuro y claro.
+- 📱 Diseño responsive y accesible.
+- ⚡ Optimización de rendimiento.
+- 🎨 Estilos modernos y personalizados con shadcn-ui.
 
-**Use GitHub Codespaces**
+## 📂 Estructura del Proyecto
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```plaintext
+PMDP/
+│── src/
+│   ├── components/
+│   ├── styles/
+│   ├── scripts/
+│   ├── assets/
+│   ├── index.html
+│   ├── main.tsx
+│── .gitignore
+│── package.json
+│── tsconfig.json
+│── vite.config.ts
+│── bun.lockb
+│── config.toml
+│── README.md
+```
 
-## What technologies are used for this project?
+## 📦 Instalación y Uso
 
-This project is built with .
+Si deseas clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pasos:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/pmdp.git
+   cd pmdp
+   ```
 
+2. Instala las dependencias con Bun:
+   ```bash
+   bun install
+   ```
 
+3. Ejecuta el servidor de desarrollo:
+   ```bash
+   bun run dev
+   ```
 
-## I want to use a custom domain - is that possible?
+4. Abre tu navegador en `http://localhost:3000`
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains]:(https://pmdp.netlify.app/)
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Siéntete libre de usarlo, modificarlo y adaptarlo según tus necesidades.
+
+## ✨ Contacto
+
+Si quieres contactarme o ver más sobre mi trabajo:
+- 🌐 [Mi Portafolio](https://jmendiola.netlify.app)
+- 📧 Email: [tu-email@example.com](mailto:tu-email@example.com)
+- 🐦 Twitter: [@tu_usuario](https://twitter.com/tu_usuario)
+- 💼 LinkedIn: [linkedin.com/in/tu-usuario](https://linkedin.com/in/tu-usuario)
+
+---
+¡Gracias por visitar el proyecto PMDP! 🚀
+
