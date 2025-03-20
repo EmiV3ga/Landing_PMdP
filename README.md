@@ -1,69 +1,82 @@
-# Welcome to your Lovable project
+# Proyecto PMDP
 
-## Project info
+Este es el repositorio del proyecto **PMDP**, desarrollado con **Vite, TypeScript, React, shadcn-ui y Tailwind CSS**, y desplegado en **Netlify**.
 
-**URL**: https://lovable.dev/projects/634de5fc-1ea9-4025-b83f-df65a6e437a5
+## 🌐 Demo
 
-## How can I edit this code?
+Puedes ver el proyecto en línea aquí: [pmdp.netlify.app](https://pmdp.netlify.app)
 
-There are several ways of editing your application.
+## 🚀 Tecnologías Utilizadas
 
-**Use Lovable**
+- **Vite** - Herramienta de construcción rápida para proyectos modernos.
+- **TypeScript** - Superset de JavaScript para código más seguro y estructurado.
+- **React** - Biblioteca para construir interfaces de usuario interactivas.
+- **shadcn-ui** - Componentes UI modernos y accesibles.
+- **Tailwind CSS** - Framework de CSS para estilos rápidos y eficientes.
+- **Netlify** - Plataforma de despliegue para hosting del sitio.
+- **Bun** - Administrador de paquetes y entorno de ejecución rápido.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/634de5fc-1ea9-4025-b83f-df65a6e437a5) and start prompting.
+## 📌 Características
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🌙 Soporte para tema oscuro y claro.
+- 📱 Diseño responsive y accesible.
+- ⚡ Optimización de rendimiento.
+- 🎨 Estilos modernos y personalizados con shadcn-ui.
 
-**Use your preferred IDE**
+## 📂 Estructura del Proyecto
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```plaintext
+PMDP/
+│── src/
+│   ├── components/
+│   ├── styles/
+│   ├── scripts/
+│   ├── assets/
+│   ├── index.html
+│   ├── main.tsx
+│── .gitignore
+│── package.json
+│── tsconfig.json
+│── vite.config.ts
+│── bun.lockb
+│── config.toml
+│── README.md
 ```
 
-**Edit a file directly in GitHub**
+## 📦 Instalación y Uso
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Si deseas clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pasos:
 
-**Use GitHub Codespaces**
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/pmdp.git
+   cd pmdp
+   ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. Instala las dependencias con Bun:
+   ```bash
+   bun install
+   ```
 
-## What technologies are used for this project?
+3. Ejecuta el servidor de desarrollo:
+   ```bash
+   bun run dev
+   ```
 
-This project is built with .
+4. Abre tu navegador en `http://localhost:3000`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📜 Licencia
 
-## How can I deploy this project?
+Este proyecto está bajo la licencia **MIT**. Siéntete libre de usarlo, modificarlo y adaptarlo según tus necesidades.
 
-Simply open [Lovable](https://lovable.dev/projects/634de5fc-1ea9-4025-b83f-df65a6e437a5) and click on Share -> Publish.
+## ✨ Contacto
 
-## I want to use a custom domain - is that possible?
+Si quieres contactarme o ver más sobre mi trabajo:
+[- 🌐 [Mi Portafolio](https://emilianodev.netlify.app/)
+- 📧 Email: [emiliano.dimartino.vega@gmail.com](mailto:emiliano.dimartino.vega@gmail.com)
+- 🐦 Twitter: [@EmiV3ga1](https://twitter.com/@EmiV3ga1)
+- 💼 LinkedIn: [linkedin.com/in/emiliano1](https://linkedin.com/in/emiliano1)]
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+---
+¡Gracias por visitar el proyecto PMDP! 🚀
+
