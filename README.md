@@ -72,10 +72,10 @@ Este proyecto está bajo la licencia **MIT**. Siéntete libre de usarlo, modific
 ## ✨ Contacto
 
 Si quieres contactarme o ver más sobre mi trabajo:
-- 🌐 [Mi Portafolio](https://jmendiola.netlify.app)
-- 📧 Email: [tu-email@example.com](mailto:tu-email@example.com)
-- 🐦 Twitter: [@tu_usuario](https://twitter.com/tu_usuario)
-- 💼 LinkedIn: [linkedin.com/in/tu-usuario](https://linkedin.com/in/tu-usuario)
+[- 🌐 [Mi Portafolio](https://emilianodev.netlify.app/)
+- 📧 Email: [emiliano.dimartino.vega@gmail.com](mailto:emiliano.dimartino.vega@gmail.com)
+- 🐦 Twitter: [@EmiV3ga1](https://twitter.com/@EmiV3ga1)
+- 💼 LinkedIn: [linkedin.com/in/emiliano1](https://linkedin.com/in/emiliano1)]
 
 ---
 ¡Gracias por visitar el proyecto PMDP! 🚀
