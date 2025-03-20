@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to PMdP Landing Page
 
 ## Project info
 
