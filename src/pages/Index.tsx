@@ -35,7 +35,7 @@ const Index = () => {
   
   // Set page title
   useEffect(() => {
-    document.title = "Tech Innovate | Custom Software Development Solutions";
+    document.title = "PMDP S.A. | Fuel and Lubricant Distribution Solutions";
     
     // Add smooth scroll behavior for anchor links
     const handleAnchorClick = (e: MouseEvent) => {

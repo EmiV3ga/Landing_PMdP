@@ -10,6 +10,10 @@ interface LanguageContextType {
 
 const translations = {
   en: {
+    // Header
+    'header.title': 'PMDP S.A. | Fuel and Lubricant Distribution Solutions',
+    'header.subtitle': 'Premium quality fuels and lubricants',
+
     // Navbar
     'nav.services': 'Services',
     'nav.about': 'About Us',
@@ -56,6 +60,10 @@ const translations = {
     'contact.hours.weekdayHours': '8:00 AM - 2:00 PM',
   },
   es: {
+    // Header
+    'header.title': 'PMDP S.A. | Soluciones en Distribución de Combustibles y Lubricantes',
+    'header.subtitle': 'Combustibles y lubricantes de calidad premium',
+
     // Navbar
     'nav.services': 'Servicios',
     'nav.about': 'Nosotros',
@@ -106,7 +114,7 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('es'); // Cambiado a 'es' para español por defecto
 
   const t = (key: string) => {
     return translations[language][key as keyof typeof translations[typeof language]] || key;
