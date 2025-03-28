@@ -36,6 +36,23 @@ const translations = {
     'services.support.title': 'Technical Support',
     'services.support.description': 'Expert engineering service and technical advice for all solutions',
 
+    // About
+    'about.teamTitle': 'About Our Company',
+    'about.teamDescription': 'Specialists in fuel and lubricant distribution',
+    'about.years': 'Years in the market',
+    'about.whoWeAreTitle': 'Who We Are',
+    'about.whoWeAre': 'We are a team of chemical engineers, logistics specialists and technical advisors committed to excellence in fuel and lubricant distribution. With over 15 years of experience, we provide high quality solutions to businesses across the region.',
+    'about.ourApproach': 'Our Approach',
+    'about.approachText': 'We focus on operational efficiency and product quality, ensuring reliable supply chains and technical support that adapts to your needs. Our certified processes guarantee excellence from storage to final delivery.',
+    'about.bullet1': 'Premium quality fuels and lubricants',
+    'about.bullet2': 'Certified distribution processes',
+    'about.bullet3': 'Rigorous quality control',
+    'about.bullet4': 'Continuous technical support',
+    'about.clients': 'Corporate Clients',
+    'about.support': 'Support Availability',
+    'about.partners': 'Strategic Partners',
+    'about.satisfaction': 'Client Satisfaction',
+
     // Contact
     'contact.title': 'Contact Us',
     'contact.subtitle': 'Get in touch with our team for more information',
@@ -86,6 +103,23 @@ const translations = {
     'services.support.title': 'Soporte Técnico',
     'services.support.description': 'Servicio de ingeniería especializado y asesoramiento técnico para todas las soluciones',
 
+    // About
+    'about.teamTitle': 'Nuestra Empresa',
+    'about.teamDescription': 'Especialistas en distribución de combustibles y lubricantes',
+    'about.years': 'Años en el mercado',
+    'about.whoWeAreTitle': 'Quiénes Somos',
+    'about.whoWeAre': 'Somos un equipo de ingenieros químicos, especialistas en logística y asesores técnicos comprometidos con la excelencia en distribución de combustibles y lubricantes. Con más de 15 años de experiencia, brindamos soluciones de alta calidad a empresas de toda la región.',
+    'about.ourApproach': 'Nuestro Enfoque',
+    'about.approachText': 'Nos enfocamos en la eficiencia operativa y calidad de productos, garantizando cadenas de suministro confiables y soporte técnico que se adapta a tus necesidades. Nuestros procesos certificados aseguran excelencia desde el almacenamiento hasta la entrega final.',
+    'about.bullet1': 'Combustibles y lubricantes de calidad premium',
+    'about.bullet2': 'Procesos de distribución certificados',
+    'about.bullet3': 'Control de calidad riguroso',
+    'about.bullet4': 'Soporte técnico continuo',
+    'about.clients': 'Clientes Corporativos',
+    'about.support': 'Disponibilidad de Soporte',
+    'about.partners': 'Socios Estratégicos',
+    'about.satisfaction': 'Satisfacción de Clientes',
+
     // Contact
     'contact.title': 'Contáctenos',
     'contact.subtitle': 'Comuníquese con nuestro equipo para más información',
@@ -114,7 +148,7 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState<Language>('es'); // Cambiado a 'es' para español por defecto
+  const [language, setLanguage] = useState<Language>('es'); // Español por defecto
 
   const t = (key: string) => {
     return translations[language][key as keyof typeof translations[typeof language]] || key;
